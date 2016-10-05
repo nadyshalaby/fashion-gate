@@ -1,0 +1,11 @@
+
+div{
+  text-align: center;
+  font-weight: bolder;
+}
+input.form-control{
+	box-shadow: 1px 1px 8px rgba(0,0,0,.2) inset;
+}
+input.form-control:focus {
+    border-bottom: 3px solid blue;
+}

@@ -1,0 +1,137 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header{
+        background: url(../public/pics/backgrounds/1-130330144S8.jpg)no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    min-width: 602px;
+    min-height: 653px;
+    position: relative;
+    line-height: 10px;
+    
+}
+
+.logo-img > img{
+    width: 150px;
+    height: 150px;
+    margin-top : 150px;
+}
+
+.logo-desc > h1{
+    color: white;
+    font-family: Arial , 'pacifico' ;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.logo-desc h1 span:nth-child(1){
+    color:#243FE1;
+}
+.logo-desc h1 span:nth-child(2){
+    color:#9D0DD1;
+}
+.logo-desc h1 span:nth-child(3){
+    color:black;
+}
+.logo-desc h1 span:nth-child(4){
+    color:#07F059;
+}
+.logo-desc h1 span:nth-child(5){
+    color:red;
+}
+.circle-arrow {
+    background: url(../public/pics/circle_arrow.png) no-repeat ;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+@keyframes arrow  {
+   0%{
+        margin-top: 3px;
+    }
+    
+      25%{
+        margin-top: 8px;
+    }
+      75%{
+        margin-top: 13x;
+    }
+     100%{
+        margin-top: 18px;
+    }
+}
+.circle-arrow > img{
+    margin-left: -3px;
+    width;20px;
+    height: 40px;
+        
+    -webkit-animation-name: arrow;
+    -webkit-animation-duration: .6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+       
+    animation-name: arrow;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in;
+}
+
+.btn-lg , .label-success {
+    margin-top: 40px;
+    padding: 20px 30px;
+    font-size: 25px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    font-weight: 500;
+    font-family: helvetica ,"comic sans ms" ,Arial;
+}
+.top-sailed-label{
+    margin: 0 0 80px 5px;
+}
+.product-item{
+    max-width: 282.25px;
+}
+.product-item:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 9px rgba(0,0,0,.6) , -2px -2px 9px rgba(0,0,0,0.6);
+}
+.label-success{
+    padding: 20px 30px;
+    font-size: 25px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    font-weight: 500;
+    z-index: 9999;
+    font-family: helvetica ,"comic sans ms" ,Arial;
+    box-shadow: 0px 3px 12px rgba(0,0,0,.6) , -2px -2px 13px rgba(0,0,0,0.6);
+}
+
+.load-more {
+    margin-left: 25px;
+}
+
+.top-sailed {
+   padding: 80px 50px;
+}
+
+.product-silder {
+    max-height: 370px;
+    overflow: hidden;
+}
+
+.product-slides{
+    margin-top: 8px;
+}
